@@ -1,4 +1,4 @@
-function Stack() {
+module.exports = Stack = function() {
   this.top = 0;
   this.length = length;
   this.pop = pop;
@@ -16,8 +16,7 @@ function push(element) {
 
 function pop() {
   if (!this.empty()) {
-    console.log('removing top');
-    this.stack.splice(--this.top, 1);
+    return this.stack.splice(--this.top, 1);
   } else {
     {
       throw Error('Stack is empty');
@@ -47,16 +46,18 @@ function isEmpty() {
   return (this.top === 0);
 }
 
-var testStack = new Stack();
-console.log('Is stack empty: ', testStack.empty());
-testStack.push('Edwin');
-testStack.push(25);
-testStack.push('Jojo');
-testStack.push(23);
+//module.exports = Stack;
 
-console.log('Stack after pushing 25: ', testStack.toString());
-testStack.pop();
-console.log('Stack after popping 23: ', testStack.toString());
-testStack.push('Jojo');
-console.log('Is stack empty: ', testStack.empty());
-console.log('What is at the top?: ', testStack.peek());
+// var testStack = new Stack();
+// console.log('Is stack empty: ', testStack.empty());
+// testStack.push('Edwin');
+// testStack.push(25);
+// testStack.push('Jojo');
+// testStack.push(23);
+//
+// console.log('Stack after pushing 25: ', testStack.toString());
+// testStack.pop();
+// console.log('Stack after popping 23: ', testStack.toString());
+// testStack.push('Jojo');
+// console.log('Is stack empty: ', testStack.empty());
+// console.log('What is at the top?: ', testStack.peek());
