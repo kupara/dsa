@@ -10,8 +10,6 @@ function isPalindrome(word) {
   if (word == rword) {
     return true;
   } else {
-    Using the Stack Class | 55
-    www.it - ebooks.info
     return false;
   }
 }
