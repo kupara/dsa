@@ -59,5 +59,5 @@ cities.insert("Nairobi", "head");
 cities.insert("Mombasa", "Nairobi");
 cities.insert("Kisumu", "Mombasa");
 cities.display();
-cities.remove("C");
+cities.remove("Mombasa");
 cities.display();
