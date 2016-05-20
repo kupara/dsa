@@ -65,11 +65,11 @@ function insert(newElement, item) {
   current.next = newNode;
 }
 var cities = new LinkedList();
-cities.insert("C", "head");
-cities.insert("R", "C");
-cities.insert("C", "R");
-cities.insert("A", "C");
+cities.insert("Cairo", "head");
+cities.insert("Rio", "Cairo");
+cities.insert("Cairo", "Rio");
+cities.insert("Algiers", "Cairo");
 cities.display();
-cities.remove("C");
+cities.remove("Cairo");
 cities.display();
 cities.dispReverse();
