@@ -5,8 +5,10 @@ Data Structures and Algorithms
 
 2. Lists
 
-3. Stacks
+3. Linked Lists
 
-4. Queues
+4. Stacks
 
-5. Linked Lists
+5. Queues
+
+6. Linked Lists
