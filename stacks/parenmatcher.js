@@ -15,3 +15,4 @@ function parenMatcher(exp) {
 }
 
 console.log(parenMatcher('2.3 + (23 / 12 + (3.14159 * .24))'));
+console.log(parenMatcher('342.23 + ((23-11) / 12 + (3.14159 * (0.04*6)))'));
