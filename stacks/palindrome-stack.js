@@ -17,13 +17,13 @@ function isPalindrome(word) {
 }
 var word = "hello";
 if (isPalindrome(word)) {
-  console.log(word + " is a palindrome.");
+  console.log(`${word} is a palindrome.)`;
 } else {
-  console.log(word + " is not a palindrome.");
+  console.log(`${word} + is not a palindrome.`);
 }
 var new_word = "racecar"
 if (isPalindrome(new_word)) {
-  console.log(new_word + " is a palindrome.");
+  console.log(`${new_word} is a palindrome.)`);
 } else {
-  console.log(new_word + " is not a palindrome.");
+  console.log(`${new_word} is a palindrome.)`);
 }
