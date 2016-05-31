@@ -1,5 +1,6 @@
 # DSA
 Data Structures and Algorithms
+The following have been implemented so far:
 
 1. Arrays
 
