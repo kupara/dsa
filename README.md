@@ -13,4 +13,5 @@ The following have been implemented so far:
 5. Queues
 
 6. Linked Lists
-7. 
+
+7. Binary Search Trees
