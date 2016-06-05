@@ -149,3 +149,10 @@ nums.insert(99);
 nums.insert(22);
 console.log("Inorder traversal: ");
 inOrder(nums.root);
+
+var min = nums.getMin();
+
+console.log("The minimum value of the BST is: " + min);
+console.log("\n");
+var max = nums.getMax();
+console.log("The maximum value of the BST is: " + max); 
