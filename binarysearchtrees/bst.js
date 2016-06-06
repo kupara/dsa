@@ -155,4 +155,14 @@ var min = nums.getMin();
 console.log("The minimum value of the BST is: " + min);
 console.log("\n");
 var max = nums.getMax();
-console.log("The maximum value of the BST is: " + max); 
+console.log("The maximum value of the BST is: " + max);
+
+inOrder(nums.root);
+console.log("\n");
+var value = 99;
+var found = nums.find(value);
+if (found != null) {
+  console.log("Found " + value + " in the BST.");
+} else {
+  console.log(value + " was not found in the BST.");
+}
