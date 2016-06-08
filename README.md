@@ -14,4 +14,6 @@ The following have been implemented so far:
 
 6. Linked Lists
 
-7. Binary Search Trees
+7. Simple Trees
+
+8. Binary Search Trees
