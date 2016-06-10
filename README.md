@@ -17,3 +17,5 @@ The following have been implemented so far:
 7. Simple Trees
 
 8. Binary Search Trees
+
+9. Graphs and Graphs Algorithms
