@@ -19,3 +19,6 @@ The following have been implemented so far:
 8. Binary Search Trees
 
 9. Graphs and Graphs Algorithms
+
+10. Heaps 
+
