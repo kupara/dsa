@@ -25,6 +25,11 @@ The following have been implemented so far:
 
 ##Algorithms
 11. Bubble Sort Algorithm
+		The elements during the bubble sorting is like bubbles in the water floating up to the surface.
+
+		When sorting a set of numbers into ascending order, larger values float to the right of the array and lower values float to the left.
+
+		The algorithm moves through the array many times, compares adjacent values, and swaps them if the value to the left is greater than the value to the right.
 
 12. Selection Sort Algorithm
 
