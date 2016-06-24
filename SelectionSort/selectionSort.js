@@ -1,4 +1,4 @@
-function MyArray(numElements) { //from w w  w  .  j  ava2  s  .  c o m
+function MyArray(numElements) { /*from   www. j  a va  2  s. c  o  m*/
   this.dataStore = [];
   this.pos = 0;
   this.numElements = numElements;
@@ -7,7 +7,7 @@ function MyArray(numElements) { //from w w  w  .  j  ava2  s  .  c o m
   this.clear = clear;
   this.setData = setData;
   this.swap = swap;
-  this.bubbleSort = bubbleSort;
+  this.selectionSort = selectionSort;
   for (var i = 0; i < numElements; ++i) {
     this.dataStore[i] = i;
   }
@@ -46,22 +46,15 @@ function swap(arr, index1, index2) {
   arr[index2] = temp;
 }
 
-function bubbleSort() {
-  var numElements = this.dataStore.length;
-  var temp;
-  for (var outer = numElements; outer >= 2; --outer) {
-    for (var inner = 0; inner <= outer - 1; ++inner) {
-      if (this.dataStore[inner] > this.dataStore[inner + 1]) {
-        swap(this.dataStore, inner, inner + 1);
+function selectionSort() {
+  var min, temp;
+  for (var outer = 0; outer <= this.dataStore.length - 2; ++outer) {
+    min = outer;
+    for (var inner = outer + 1; inner <= this.dataStore.length - 1; ++inner) {
+      if (this.dataStore[inner] < this.dataStore[min]) {
+        min = inner;
       }
     }
+    swap(this.dataStore, outer, min);
   }
 }
-
-var numElements = 10;
-var mynums = new MyArray(numElements);
-mynums.setData();
-console.log(mynums.toString());
-mynums.bubbleSort();
-console.log();
-console.log(mynums.toString());
