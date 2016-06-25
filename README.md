@@ -23,3 +23,5 @@ The following have been implemented so far:
 10. Heaps 
 
 11. Bubble Sort Algorithm
+
+12. Selection Sort Algorithm

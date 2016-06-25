@@ -58,3 +58,12 @@ function selectionSort() {
     swap(this.dataStore, outer, min);
   }
 }
+
+
+var numElements = 10; 
+var mynums = new MyArray(numElements); 
+mynums.setData(); 
+console.log(mynums.toString()); 
+mynums.selectionSort(); 
+console.log(); 
+console.log(mynums.toString()); 
