@@ -58,3 +58,11 @@ function insertionSort() {
     this.dataStore[inner] = temp;
   }
 }
+
+var numElements = 10; 
+var mynums = new MyArray(numElements); 
+mynums.setData(); 
+console.log(mynums.toString()); 
+mynums.insertionSort(); 
+console.log(); 
+console.log(mynums.toString()); 

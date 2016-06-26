@@ -25,3 +25,5 @@ The following have been implemented so far:
 11. Bubble Sort Algorithm
 
 12. Selection Sort Algorithm
+
+13. Inserion Sort Algorithm
