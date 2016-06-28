@@ -32,4 +32,6 @@ The following have been implemented so far:
 
 14. Shell Sort Algorithm
 
-15. 
+15. Merge Sort Algorithm
+
+
