@@ -34,4 +34,4 @@ The following have been implemented so far:
 
 15. Merge Sort Algorithm
 
-
+16. Quick Sort Algorithm
