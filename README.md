@@ -4,6 +4,13 @@ The following have been implemented so far:
 
 ##Data Structures
 1. Arrays
+		An array is a linear collection of elements.
+
+		Array elements can be accessed via indices.
+
+		Array index is usually integer value used to compute offsets.
+
+		The first element in an array has the index of 0.
 
 2. Lists
 
