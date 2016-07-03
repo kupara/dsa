@@ -23,6 +23,11 @@ The following have been implemented so far:
 		The currentPosition property indicates the current position in a list.
 
 3. Linked Lists
+		A linked list is a collection of objects called nodes.
+		Each node is linked to a successor node in the list using an object reference.
+		The reference to another node is called a link.
+		To insert a new node, the link of the node before the inserted node is changed to point to the new node, and the new node's link is set to the node the previous node was pointing to.
+		To remove an item from a linked list, the link of the node before the removed node is redirected to point to the node the removed node is pointing to, while also pointing the removed node to null.
 
 4. Stacks
 
