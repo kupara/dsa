@@ -30,7 +30,9 @@ The following have been implemented so far:
 		To remove an item from a linked list, the link of the node before the removed node is redirected to point to the node the removed node is pointing to, while also pointing the removed node to null.
 
 4. Stacks
-
+		A stack is a list of elements that are accessible only from one end of the list, which is called the top.
+		The stack is known as a last-in, first-out (LIFO) data structure.
+To build a stack, we will use an array in our implementation.
 5. Queues
 
 6. Linked Lists
