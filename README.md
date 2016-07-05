@@ -32,8 +32,12 @@ The following have been implemented so far:
 4. Stacks
 		A stack is a list of elements that are accessible only from one end of the list, which is called the top.
 		The stack is known as a last-in, first-out (LIFO) data structure.
-To build a stack, we will use an array in our implementation.
+		To build a stack, we will use an array in our implementation.
+
 5. Queues
+		The two primary operations involving queues are inserting a new element into a queue and removing an element from a queue.
+		The insertion operation is called enqueue, and the removal operation is called dequeue.
+		The enqueue operation inserts a new element at the end of a queue, and the dequeue operation removes an element from the front of a queue.
 
 6. Linked Lists
 
