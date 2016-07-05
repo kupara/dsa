@@ -39,25 +39,34 @@ The following have been implemented so far:
 		The insertion operation is called enqueue, and the removal operation is called dequeue.
 		The enqueue operation inserts a new element at the end of a queue, and the dequeue operation removes an element from the front of a queue.
 
-6. Linked Lists
+6. Simple Trees
+		A tree is a nonlinear data structure that is used to store data in a hierarchical manner.
 
-7. Simple Trees
+		Tree data structures are used to store hierarchical data, such as the files in a file system.
 
-8. Binary Search Trees
+		A tree is made up of a set of nodes connected by edges.
 
-9. Graphs and Graphs Algorithms
+		Special types of trees, called binary trees, restrict the number of child nodes to no more than two.
 
-10. Heaps
+		A tree can be broken down into levels.
+
+		The root node is at level 0, its children are at level 1, those nodes' children are at level 2, and so on.
+
+7. Binary Search Trees
+
+8. Graphs and Graphs Algorithms
+
+9. Heaps
 
 ##Algorithms
-11. Bubble Sort Algorithm
+10. Bubble Sort Algorithm
 		The elements during the bubble sorting is like bubbles in the water floating up to the surface.
 
 		When sorting a set of numbers into ascending order, larger values float to the right of the array and lower values float to the left.
 
 		The algorithm moves through the array many times, compares adjacent values, and swaps them if the value to the left is greater than the value to the right.
 
-12. Selection Sort Algorithm
+11. Selection Sort Algorithm
 		The sorting algorithm works by starting at the beginning of the array and comparing the first element with the remaining elements.
 
 		After examining all the elements, the smallest element is placed in the first position, and the algorithm moves to the second position.
@@ -66,12 +75,12 @@ The following have been implemented so far:
 
 		Nested loops are used in the selection sort algorithm.
 
-The outer loop moves from the first element in the array to the next to last element; the inner loop moves from the second array element to the last element.
+		The outer loop moves from the first element in the array to the next to last element; the inner loop moves from the second array element to the last element.
 
-13. Insertion Sort Algorithm
+12. Insertion Sort Algorithm
 
-14. Shell Sort Algorithm
+13. Shell Sort Algorithm
 
-15. Merge Sort Algorithm
+14. Merge Sort Algorithm
 
-16. Quick Sort Algorithm
+15. Quick Sort Algorithm
