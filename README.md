@@ -64,36 +64,24 @@ The following have been implemented so far:
 
 		The root node is at level 0, its children are at level 1, those nodes' children are at level 2, and so on.
 
-7. Binary Search Trees
-		A tree is a nonlinear data structure that is used to store data in a hierarchical manner.
 
-		Tree data structures are used to store hierarchical data, such as the files in a file system.
-
-		A tree is made up of a set of nodes connected by edges.
-
-		Special types of trees, called binary trees, restrict the number of child nodes to no more than two.
-
-		A tree can be broken down into levels.
-
-		The root node is at level 0, its children are at level 1, those nodes' children are at level 2, and so on.
-
-8. Graphs and Graphs Algorithms
+7. Graphs and Graphs Algorithms
 		A *graph* consists of a set of vertices and a set of *edges*.
 		Edges are defined as a pair (v1, v2), where v1 and v2 are two vertices in a graph. A vertex can also have a weight, which is sometimes called a cost. 
 		A graph whose pairs are ordered is called a directed graph, or just a *digraph*. When pairs are ordered in a directed graph, an arrow is drawn from one pair to another pair. 
 		Directed graphs indicate the flow direction from vertex to vertex.
 
-9. Heaps
+8. Heaps
 
 ##Algorithms
-10. Bubble Sort Algorithm
+9. Bubble Sort Algorithm
 		The elements during the bubble sorting is like bubbles in the water floating up to the surface.
 
 		When sorting a set of numbers into ascending order, larger values float to the right of the array and lower values float to the left.
 
 		The algorithm moves through the array many times, compares adjacent values, and swaps them if the value to the left is greater than the value to the right.
 
-11. Selection Sort Algorithm
+10. Selection Sort Algorithm
 		The sorting algorithm works by starting at the beginning of the array and comparing the first element with the remaining elements.
 
 		After examining all the elements, the smallest element is placed in the first position, and the algorithm moves to the second position.
@@ -104,10 +92,10 @@ The following have been implemented so far:
 
 		The outer loop moves from the first element in the array to the next to last element; the inner loop moves from the second array element to the last element.
 
-12. Insertion Sort Algorithm
+11. Insertion Sort Algorithm
 
-13. Shell Sort Algorithm
+12. Shell Sort Algorithm
 
-14. Merge Sort Algorithm
+13. Merge Sort Algorithm
 
-15. Quick Sort Algorithm
+14. Quick Sort Algorithm
