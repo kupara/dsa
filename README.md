@@ -52,17 +52,17 @@ The following have been implemented so far:
 		The enqueue operation inserts a new element at the end of a queue, and the dequeue operation removes an element from the front of a queue.
 
 6. Simple Trees
-		A tree is a nonlinear data structure that is used to store data in a hierarchical manner.
+		A *tree* is a nonlinear data structure that is used to store data in a hierarchical manner.
 
 		Tree data structures are used to store hierarchical data, such as the files in a file system.
 
-		A tree is made up of a set of nodes connected by edges.
+		A tree is made up of a set of *nodes* connected by *edges*.
 
-		Special types of trees, called binary trees, restrict the number of child nodes to no more than two.
+		Special types of trees, called *binary trees*, restrict the number of child nodes to no more than two.
 
-		A tree can be broken down into levels.
+		A tree can be broken down into *levels*.
 
-		The root node is at level 0, its children are at level 1, those nodes' children are at level 2, and so on.
+		The *root* node is at level 0, its children are at level 1, those nodes' children are at level 2, and so on.
 
 
 7. Graphs and Graphs Algorithms
@@ -102,4 +102,4 @@ The following have been implemented so far:
 
 Other Algorithms
   - Dijkstra's Algorithm - Find shortest path between any two points on a graph.
-	- 
+	-
