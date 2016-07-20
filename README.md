@@ -12,13 +12,15 @@ The following have been implemented so far:
 2. Lists
 		A list is an ordered sequence of data.
 
-		Each data item stored in a list is called an element. A list with no elements is an empty list.
+		Each data item stored in a list is called an element.
+		A list with no elements is an *empty* list.
 
 		The number of elements stored in a list is called the length of the list.
 
-		We can append an element to the end of a list, or we can insert an element into a list after an existing element or at the beginning of a list.
+		We can *append* an element to the end of a list, or we can insert an element into a list after an existing element or at the beginning of a list.
 
-		Elements are deleted from a list using a remove operation. 		We can also clear a list so that all of its current elements are removed.
+		Elements are deleted from a list using a remove operation.
+		We can also clear a list so that all of its current elements are removed.
 
 		The elements of a list are displayed using either a toString() operation.
 		getElement() operation displays the value of the current element.
@@ -29,7 +31,7 @@ The following have been implemented so far:
 		The currentPosition property indicates the current position in a list.
 
 3. Linked Lists
-		A linked list is a collection of objects called nodes.
+		A linked list is a collection of objects called *nodes*.
 
 		Each node is linked to a successor node in the list using an object reference.
 		The reference to another node is called a link.
