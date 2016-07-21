@@ -34,16 +34,16 @@ The following have been implemented so far:
 		A linked list is a collection of objects called *nodes*.
 
 		Each node is linked to a successor node in the list using an object reference.
-		The reference to another node is called a link.
+		The reference to another node is called a *link*.
 
 		To insert a new node, the link of the node before the inserted node is changed to point to the new node, and the new node's link is set to the node the previous node was pointing to.
 
 		To remove an item from a linked list, the link of the node before the removed node is redirected to point to the node the removed node is pointing to, while also pointing the removed node to null.
 
 4. Stacks
-		A stack is a list of elements that are accessible only from one end of the list, which is called the top.
+		A stack is a list of elements that are accessible only from one end of the list, which is called the *top*.
 
-		The stack is known as a last-in, first-out (LIFO) data structure.
+		The stack is known as a *last-in, first-out (LIFO)* data structure.
 		To build a stack, we will use an array in our implementation.
 
 5. Queues
