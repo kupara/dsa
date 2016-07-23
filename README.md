@@ -49,9 +49,9 @@ The following have been implemented so far:
 5. Queues
 		The two primary operations involving queues are inserting a new element into a queue and removing an element from a queue.
 
-		The insertion operation is called enqueue, and the removal operation is called dequeue.
+		The insertion operation is called *enqueue*, and the removal operation is called *dequeue*.
 
-		The enqueue operation inserts a new element at the end of a queue, and the dequeue operation removes an element from the front of a queue.
+		The enqueue operation inserts a new element at the *end* of a queue, and the dequeue operation removes an element from the front of a *queue*.
 
 6. Simple Trees
 		A *tree* is a nonlinear data structure that is used to store data in a hierarchical manner.
