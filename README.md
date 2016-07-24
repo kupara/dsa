@@ -95,6 +95,12 @@ The following have been implemented so far:
 		The outer loop moves from the first element in the array to the next to last element; the inner loop moves from the second array element to the last element.
 
 11. Insertion Sort Algorithm
+			The insertion sort has two loops. The outer loop moves element by element through
+			the array, while the inner loop compares the element chosen in the outer loop to the
+			element next to it in the array.
+			If the element selected by the outer loop is less than the
+			element selected by the inner loop, array elements are shifted over to the right to make
+			room for the inner-loop element
 
 12. Shell Sort Algorithm
 
