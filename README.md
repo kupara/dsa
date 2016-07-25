@@ -85,13 +85,9 @@ The following have been implemented so far:
 
 10. Selection Sort Algorithm
 		The sorting algorithm works by starting at the beginning of the array and comparing the first element with the remaining elements.
-
 		After examining all the elements, the smallest element is placed in the first position, and the algorithm moves to the second position.
-
 		This process continues until the algorithm arrives at the next to last position in the array.
-
 		Nested loops are used in the selection sort algorithm.
-
 		The outer loop moves from the first element in the array to the next to last element; the inner loop moves from the second array element to the last element.
 
 11. Insertion Sort Algorithm
