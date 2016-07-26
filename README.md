@@ -99,6 +99,10 @@ The following have been implemented so far:
 			room for the inner-loop element
 
 12. Shell Sort Algorithm
+		Shellsort works by defining a gap sequence that indicates how far apart compared elements
+		are when starting the sorting process.
+		The gap sequence can be defined dynamically, but for most practical applications, you can predefine the gap sequence the algorithm will use.
+		There are several published gap sequences that produce different results.
 
 13. Merge Sort Algorithm
 
