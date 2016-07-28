@@ -105,6 +105,17 @@ The following have been implemented so far:
 		There are several published gap sequences that produce different results.
 
 13. Merge Sort Algorithm
+		The Mergesort algorithm is so named because it works by merging sorted sublists together
+		to form a larger, completely sorted list.
+		In theory, this algorithm should be easy
+		to implement. We need two sorted subarrays and a third array into which we merge the
+		two subarrays by comparing data elements and inserting the smallest element value.
+		In practice, however, Mergesort has some problems because if we are trying to sort a very
+		large data set using the algorithm, the amount of space we need to store the two merged
+		subarrays can be quite large.
+		Since space is not such an issue in these days of inexpensive
+		memory, it is worth implementing Mergesort to see how it compares in efficiency to
+		other sorting algorithms.
 
 14. Quick Sort Algorithm
 
