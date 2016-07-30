@@ -91,29 +91,29 @@ The following have been implemented so far:
 		The outer loop moves from the first element in the array to the next to last element; the inner loop moves from the second array element to the last element.
 
 11. Insertion Sort Algorithm
-			The insertion sort has two loops. The outer loop moves element by element through
-			the array, while the inner loop compares the element chosen in the outer loop to the
-			element next to it in the array.
-			If the element selected by the outer loop is less than the
-			element selected by the inner loop, array elements are shifted over to the right to make
-			room for the inner-loop element
+		- The insertion sort has two loops. The outer loop moves element by element through
+		the array, while the inner loop compares the element chosen in the outer loop to the
+		element next to it in the array.
+		- If the element selected by the outer loop is less than the
+		element selected by the inner loop, array elements are shifted over to the right to make
+		room for the inner-loop element
 
 12. Shell Sort Algorithm
-		Shellsort works by defining a gap sequence that indicates how far apart compared elements
+		- Shellsort works by defining a gap sequence that indicates how far apart compared elements
 		are when starting the sorting process.
-		The gap sequence can be defined dynamically, but for most practical applications, you can predefine the gap sequence the algorithm will use.
-		There are several published gap sequences that produce different results.
+		- The gap sequence can be defined dynamically, but for most practical applications, you can predefine the gap sequence the algorithm will use.
+		- There are several published gap sequences that produce different results.
 
 13. Merge Sort Algorithm
-		The Mergesort algorithm is so named because it works by merging sorted sublists together
+		- The Mergesort algorithm is so named because it works by merging sorted sublists together
 		to form a larger, completely sorted list.
-		In theory, this algorithm should be easy
+		- In theory, this algorithm should be easy
 		to implement. We need two sorted subarrays and a third array into which we merge the
 		two subarrays by comparing data elements and inserting the smallest element value.
-		In practice, however, Mergesort has some problems because if we are trying to sort a very
+		- In practice, however, Mergesort has some problems because if we are trying to sort a very
 		large data set using the algorithm, the amount of space we need to store the two merged
 		subarrays can be quite large.
-		Since space is not such an issue in these days of inexpensive
+		- Since space is not such an issue in these days of inexpensive
 		memory, it is worth implementing Mergesort to see how it compares in efficiency to
 		other sorting algorithms.
 
