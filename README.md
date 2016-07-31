@@ -118,6 +118,13 @@ The following have been implemented so far:
 		other sorting algorithms.
 
 14. Quick Sort Algorithm
+		- The Quicksort algorithm is one of the fastest sorting algorithms for large data sets.
+		- Quicksort is a divide-and-conquer algorithm that recursively breaks a list of data into
+		successively smaller sublists consisting of the smaller elements and the larger elements.
+		- The algorithm continues this process until all the data in the list is sorted.
+		- The algorithm divides the list into sublists by selecting one element of the list as a pivot.
+		- Data is sorted around the pivot by moving elements less than the pivot to the bottom
+		of the list and elements that are greater than the pivot to the top of the list.
 
 Other Algorithms
   - Dijkstra's Algorithm - Find shortest path between any two points on a graph.
